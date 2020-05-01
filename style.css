@@ -21,6 +21,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-top: 5ex;
+    margin-bottom: 5ex;
     padding: 2ex;
     background-color: seashell;
 }
@@ -39,4 +40,15 @@ input, #submit{
 
 select{
     border-radius: 10em;
+}
+
+/* layout */
+.container {
+    display: flex;
+    flex-flow: coluum wrap;
+}
+
+
+img {
+    width: 100%;
 }
