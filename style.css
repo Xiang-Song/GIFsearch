@@ -1,0 +1,42 @@
+/* base style*/
+body {
+    background-color: #000;
+    color: seashell;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 3ex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.search {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5ex;
+    padding: 2ex;
+    background-color: seashell;
+}
+
+.navbar {
+    background-color: #000;
+}
+
+#criteria {
+    flex-grow: 2;
+}
+
+input, #submit{
+    border-radius: 0.5em;
+}
+
+select{
+    border-radius: 10em;
+}
