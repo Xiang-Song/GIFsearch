@@ -1,6 +1,6 @@
 
 const Akey = "odBYLKqVyDIUumIT4qC1USPdko451Pzk";
-let criteria = "giphy";
+let criteria = "coding";
 let maxNumber = 20;
 let rating = "g";
 
@@ -11,7 +11,7 @@ let displayResults = (d) => {
     let content = "";
     $('#results').empty();
     for (let arr of d) {
-        content = `<div class="col-sm-3"><img src=${arr.images.original.url}></div>`;
+        content = `<div class="gif col-sm-3"><img src=${arr.images.original.url}></div>`;
         $('#results').append(content);
     }; 
 };
@@ -29,7 +29,7 @@ let fetchDate = (criteria, maxNumber, rating) => {
 
 let userRequest = () => {
     $("#submit").on('click', () => {
-        let criteria = $("#criteria").val()?$("#criteria").val():'gifhy';
+        let criteria = $("#criteria").val()?$("#criteria").val():'coding';
         $("#criteria").val('');
         let maxNumber = $("#max-number").val()?$("#max-number").val():20;
         $("#max-number").val('');

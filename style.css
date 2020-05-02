@@ -7,27 +7,41 @@ body {
 .header {
     display: flex;
     justify-content: center;
+    font-size: 5vw;
     margin-top: 3ex;
 }
+
+/* search panel layout*/
 
 .container {
     display: flex;
     justify-content: center;
+    font-size: 2vw;
+    box-sizing: border-box;
 }
-
 
 .search {
+    background-color: seashell;
     width: 70%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 5ex;
     margin-bottom: 5ex;
-    padding: 2ex;
-    background-color: seashell;
+    padding: 1vh;
 }
 
-.navbar {
-    background-color: #000;
+input {
+    width: 98%;
+    margin: 2px;
+}
+
+#rating {
+    width: 20%;
+}
+
+#submit {
+    width: 20%;
+
 }
 
 #criteria {
@@ -39,16 +53,33 @@ input, #submit{
 }
 
 select{
-    border-radius: 10em;
+    display: none;
 }
 
-/* layout */
-.container {
-    display: flex;
-    flex-flow: coluum wrap;
-}
 
+/* content layout */
 
 img {
-    width: 100%;
+    width: 90vw;
+    margin: 2px;
 }
+
+@media screen and (min-width:768px) {
+    img {
+        width: 20vw;
+        margin: 2px;
+    }
+
+    select {
+        display: inline-block;
+    }
+
+}
+}
+
+
+
+
+
+
+
