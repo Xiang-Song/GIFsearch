@@ -11,6 +11,13 @@ body {
     margin-top: 3ex;
 }
 
+/* import google font for header */
+
+@import url('https://fonts.googleapis.com/css?family=Almendra+SC&display=swap');
+.header {
+    font-family: 'Almendra SC', serif;
+    font-weight: 700;
+}
 /* search panel layout*/
 
 .container {
@@ -76,8 +83,6 @@ img {
 
 }
 }
-
-
 
 
 
