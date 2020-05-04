@@ -51,10 +51,6 @@ input {
 
 }
 
-#criteria {
-    flex-grow: 2;
-}
-
 input, #submit{
     border-radius: 0.5em;
 }
@@ -72,17 +68,19 @@ img {
 }
 
 @media screen and (min-width:768px) {
+    select {
+        display: inline-block;
+    }
+
     img {
         width: 20vw;
         margin: 2px;
     }
 
-    select {
-        display: inline-block;
-    }
+    
 
 }
-}
+
 
 
 
